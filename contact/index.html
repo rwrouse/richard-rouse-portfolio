@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Richard W. Rouse | Contact Me</title>
+    <link type="text/css" rel="stylesheet" href="/css/style.css"/>
+  </head>
+  <body>
+    <div class="container" id="navbar">
+      <ul>
+        <li>Home</li>
+        <li>Projects</li>
+        <li>Media</li>
+        <li>Blog</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <form action="https://formspree.io/rwrouse@gmail.com" method="POST">
+
+        <input type="text" name="firstname" value="Frist Name" size="100">
+        <input type="text" name="lastname" value="Last Name" size="100">
+        <input type="email" name="subject" value="other" checked><span>Don't Know / Something else</span>
+
+        <label for="">Whats this message about?
+          <input type="radio" name="subject" value="professional" checked><span>I'd like to hire you!</span>
+          <input type="radio" name="subject" value="personal" checked><span>Personal Message</span>
+          <input type="radio" name="subject" value="other" checked><span>Don't Know / Something else</span>
+        </label>
+
+        <input type="checkbox" name="optin" value="trusting" checked="">Subscribe me to your newsletter!
+        <input type="checkbox" name="optout" value="skeptical">Cheeky checkbox...
+
+        <label for="marketing">How did you hear about me?</label>
+          <select name="marketing">
+            <optgroup label="OnLine">
+              <option value="social">Social Media (FB, Twitter, LinkedIn)</option>
+              <option value="github">Online Portfolio (Github)</option>
+              <option value="search">Search Engine</option>
+              <option value="email">Email</option>
+            </optgroup>
+
+            <optgroup label="In-Person">
+              <option value="social">We met at a networking event</option>
+              <option value="github">Personal referral</option>
+              <option value="search">We met somewhere else</option>
+            </optgroup>
+            <option value="other">Other</option>
+          </select>
+
+          <textarea name="user_message" rows="8" cols="40"></textarea>
+          <input type="submit" name="" value="">
+      </form>
+
+    </div>
+
+    <footer></footer>
+  </body>
+</html>
